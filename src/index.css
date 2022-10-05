@@ -1,0 +1,175 @@
+@import url(//db.onlinewebfonts.com/c/22316686fac5e30c3306987e05c8c566?family=Geometos+Rounded);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen' ,'Geometos Rounded',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face 
+{
+  font-family: "Geometos Rounded"; 
+  src: url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.eot"); 
+  src: url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.eot?#iefix") 
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/22316686fac5e30c3306987e05c8c566.svg#Geometos Rounded") 
+  format("svg"); 
+}
+
+
+@keyframes rotate{
+    from{ transform: rotate(360deg); }
+    to{ transform: rotate(0deg); }
+}
+
+@keyframes spin{
+  from{ transform: rotate(196.94deg); }
+  to{ transform: rotate(90deg); }
+  
+} 
+
+.aboutRotate{
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+.rotatingCircle12{
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  
+  margin:  -27rem;
+ 
+}
+
+.rotatingCircle{
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  margin:  -50%;
+
+}
+
+.aboutRotateAnti{
+  animation-name: spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.rotateOpposite{
+  position: absolute;
+  animation-name: spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  margin:  -85%;
+  
+ 
+}
+
+
+.trustedPartners{
+  margin-top:-42rem;
+  margin-left: 4rem
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  background-color: #140e2e;
+ 
+}
+.mySwiper
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: "red";
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mobilePartner{
+  position: absolute;
+  margin-right: 23rem;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  height:  100%;
+}
+.team_img{
+  background: #000814;
+}
+.circleBox
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15rem; height: 15rem;
+  border-radius: 50%;
+  border: 2px dashed white;
+}
+
+.circleBox2{
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.circleBox3{
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.dotts{
+  width: 20px;
+height: 20px;
+border-radius: 50%;
+
+/* Linear */
+
+background: linear-gradient(196.94deg, #158AFF 15.45%, #1F4CC8 45.29%, #6100D0 88.33%);
+}
