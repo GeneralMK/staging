@@ -66,4 +66,4 @@ const CircleBox = (props) => {
   )
 }
 
-export default React.memo(CircleBox)
+export default CircleBox

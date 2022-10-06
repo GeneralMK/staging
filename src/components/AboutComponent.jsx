@@ -32,4 +32,4 @@ We are operational in various industries: mining, agriculture, technology, educa
   )
 }
 
-export default React.memo(AboutComponent)
+export default AboutComponent

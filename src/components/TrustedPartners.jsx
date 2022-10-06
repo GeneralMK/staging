@@ -165,4 +165,4 @@ function TrustedPartners() {
   )
 }
 
-export default React.memo(TrustedPartners)
+export default TrustedPartners

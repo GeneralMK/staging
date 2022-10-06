@@ -40,4 +40,4 @@ const AboutCircle = () => {
   )
 }
 
-export default React.memo(AboutCircle)
+export default AboutCircle

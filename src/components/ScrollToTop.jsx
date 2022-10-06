@@ -86,4 +86,4 @@ opacity='0'
   )
 }
 
-export default React.memo(ScrollToTop)
+export default ScrollToTop

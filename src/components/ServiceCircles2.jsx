@@ -244,4 +244,4 @@ Analytikus works accross all industry verticals from private sector, mining, agr
   )
 }
 
-export default React.memo(ServicesCircle)
+export default ServicesCircle

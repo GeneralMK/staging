@@ -169,4 +169,4 @@ const Mission_and_values = () => {
   )
 }
 
-export default React.memo(Mission_and_values)
+export default Mission_and_values
