@@ -239,4 +239,4 @@ ENQUIRE NOW
   )
 }
 
-export default ServicesCircle
+export default React.memo(ServicesCircle)

@@ -209,4 +209,4 @@ const KeepInTouch = (props) => {
   )
 }
 
-export default KeepInTouch
+export default React.memo(KeepInTouch)

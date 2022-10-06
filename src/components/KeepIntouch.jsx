@@ -266,4 +266,4 @@ onSubmit={handleInputChange}
   )
 }
 
-export default KeepInTouch
+export default React.memo(KeepInTouch)

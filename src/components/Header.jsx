@@ -173,4 +173,4 @@ display='flex' alignItems='center' justifyContent='center' flexDirection='column
 
     );
   }
-  export default SplitScreen;
+  export default React.memo(SplitScreen);

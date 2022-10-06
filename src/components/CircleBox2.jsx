@@ -94,4 +94,4 @@ borderRightRadius="22%"
   )
 }
 
-export default CircleBox2
+export default React.memo(CircleBox2)
