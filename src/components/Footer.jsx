@@ -39,7 +39,7 @@ import {
         bg="#140e2e"
         color="#fafafa"
         align={'flex-end'}>
-        <Container as={Stack} ml='42rem' flexDirection='column' alignContent='center' maxW={'6xl'} py={10} pt={222}>
+        <Container as={Stack}  flexDirection='column' alignContent='center' maxW={'6xl'} py={10} pt={222}>
           <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
             <Stack align={'flex-start'} >
               <ListHeader fontSize={12} fontWeight="400">Why Analytikus</ListHeader>
